@@ -1,0 +1,15 @@
+<?xml version='1.0' standalone='yes'?>
+<config>
+<database>
+<server>localhost</server>
+<name>gbiz</name>
+<user>dbuser</user>
+<password>dbpass</password>
+</database>
+<nominatim>
+<server>nominatim.openstreetmap.org</server>
+<nominatim>
+<tables>
+<tb_telbooks>telbooks</tb_telbooks>
+</tables>
+</config>
