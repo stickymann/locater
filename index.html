@@ -11,13 +11,13 @@
 </head>
 	<body class="easyui-layout">
 		<div region="center" split="true" title="Map Area" style="overflow:hidden;">
-			<div class="easyui-layout" fit="true" style="border:overflow:hidden;">
-				<iframe src="http://wikimapia.org/#lang=en&lat=10.650022&lon=-61.442692&z=16&m=o" name="maparea" style="width:100%;height:100%;" frameborder="0" scrolling="auto"></iframe>
+			<div class="easyui-layout" fit="true" style="border:overflow:auto; height=auto;">
+				<iframe src="http://wikimapia.org/#lang=en&lat=10.650022&lon=-61.442692&z=16&m=o" name="maparea" style="width:100%;height:600px;" frameborder="0" scrolling="auto"></iframe>
 			</div>
 		</div>
 		<div region="north" split="true" title="Search & Locate" style="overflow:hidden;">
 			<div class="easyui-layout" fit="true">
-				<iframe src="locater.php" name="input" style="width:100%;height:100%;color:green" frameborder="0" scrolling="auto"></iframe>
+				<iframe src="locater.html" name="input" style="width:100%;height:100%;color:green" frameborder="0" scrolling="auto"></iframe>
 			</div>
 		</div>	
 	</body>

@@ -35,7 +35,7 @@ class Config
 				$this->config['connectstr'] = sprintf('mysql:host=%s;dbname=%s', $this->config['dbserver'], $this->config['dbname']);
 				
 				//nominatim
-				if($cfg->nominatim->server) { $this->config['nominatim_server'] = sprintf('%s',$cfg->nominatim->server); }
+				if($cfg->nominatim->url) { $this->config['nominatim_url'] = rtrim( sprintf('%s',$cfg->nominatim->url),'/').'/'; }
 				
 				//smsd
 				if($cfg->smsd->folders->checked) { $this->config['checked'] = rtrim( sprintf('%s', $cfg->smsd->folders->checked),'/').'/'; }

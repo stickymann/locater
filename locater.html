@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Locater</title>
+	<link type="text/css" href="css/site.css" rel="stylesheet" screen="screen" />
+	<script type="text/javascript" src="js/jquery-1.7.0.min.js"></script>
+	<script type="text/javascript" src="js/core.siteutils.js"></script>
+	<script type="text/javascript" src="js/core.popoutselector.js"></script>
+	<script type="text/javascript" src="js/locater.js"></script>
+</head>
+<body>
+<div style="width:100%;overflow:hidden;">
+<div id="locate_div" name="locate_div"> 
+<table>
+<tr valign="top">
+	<td><label for="vehicle_id">Vehicle Id:</label></td>
+	<td>
+		<input type="text" id="vehicle_id" name="vehicle_id" size="25">
+		<span id="vehicle_id_popout" name="vehicle_id_popout">
+			<a href = "javascript:void(0)" onclick=window.popout.SelectorOpen("id,vehicle_id,telno,username","telbooks","vehicle_id","vehicle_id") class="aimg">
+			&nbsp <img src="img/lubw020.png" align=absbottom>
+		</span>
+	</td>
+	<td><input type="submit" id="locate" name="locate" value="Locate"></td>
+</tr>
+<tr valign="top">
+	<td>
+		<label for="lat">Lat: </label>
+		<br><br>
+		<label for="lon">Lon: </label>
+	</td>
+	<td>
+		<input type="text" id="lat" name="lat" size="25" value="10.6505645">
+		<br>
+		<input type="text" id="lon" name="lon" size="25" value="-61.5162691">
+	</td>
+	<td><input type="submit" id="whereis" name="whereis" value="Where Is"></td>
+</tr>
+</table>
+</div>
+<div id="result_div" name="result_div"></div>
+</div>
+</body>
+</html>

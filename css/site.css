@@ -232,3 +232,10 @@ label.valid {display: block; width: 16px; height: 16px;}
 #ne_tlist { border: 1px solid white; font-family: verdana, arial, helvetica, sans-serif; font-size: 1em; text-align: left; border-collapse: collapse; }
 #ne_tlist th {border: 1px solid gray;  font-weight: bold; padding: 2px; background: #ebf2f9; color: #000000; }
 #ne_tlist td {border: 1px solid gray; font-weight: normal; padding: 2px; background: transparent; color: #000000; }
+
+
+#locate_div {border:#0000ad solid 1px;background-color:#ebf2f9;width:25%;float:left; padding:5px;}
+#result_div {border:#0000ad solid 1px;background-color:#ebf2f9;width:70%;height:90px;float:left; margin: 0px 0px 0px 2px; padding:5px;overflow-x:hidden;overflow-y:scroll;}
+
+
+

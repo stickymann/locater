@@ -7,8 +7,8 @@
 <password>dbpass</password>
 </database>
 <nominatim>
-<server>nominatim.openstreetmap.org</server>
-<nominatim>
+<url>http://nominatim.openstreetmap.org</url>
+</nominatim>
 <tables>
 <tb_telbooks>telbooks</tb_telbooks>
 </tables>

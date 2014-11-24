@@ -15,7 +15,7 @@ var siteutils = new function()
 {
 	this.getAjaxURL = function()
 	{
-		url_ajax = this.getBaseURL() + "dbreqs?";
+		url_ajax = this.getBaseURL() + "dbreqs.php?";
 		return url_ajax; 
 	}
 
